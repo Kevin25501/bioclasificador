@@ -242,7 +242,7 @@ class _HomePageState extends State<HomePage> {
       print('📤 Enviando: ${jsonEncode(datosParaEnviar)}');
 
       final response = await http.post(
-        Uri.parse('http://192.168.100.20:8000/predict'),
+        Uri.parse('https://bioclasificador.onrender.com/predict'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode(datosParaEnviar),
       );

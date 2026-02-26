@@ -1,0 +1,28 @@
+{
+  "features": [
+    "Altitud",
+    "Lat",
+    "Long",
+    "PAIS",
+    "Tipo_Hoja",
+    "Textura_Suelo",
+    "pH_Suelo",
+    "Conductividad",
+    "Habitat",
+    "Stem_dry_mass_per_stem_fresh_volume_stem_specific_density_SSD_wood_density_sapwood"
+  ],
+  "encoders": {
+    "PAIS": {
+      "classes": ["Ecuador", "Colombia", "Peru", "Brasil", "Desconocido"]
+    },
+    "Tipo_Hoja": {
+      "classes": ["Simple", "Compuesta", "Desconocido"]
+    },
+    "Textura_Suelo": {
+      "classes": ["Arcilloso", "Arenoso", "Franco", "Limoso", "Desconocido"]
+    },
+    "Habitat": {
+      "classes": ["Bosque", "Paramo", "Selva", "Costa", "Desconocido"]
+    }
+  }
+}
